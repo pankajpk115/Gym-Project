@@ -1,0 +1,22 @@
+
+#caption_1{
+    color: Yellow;
+    font-size: x-large;
+    font-family: 'Delicious Handrawn', cursive;
+       
+}
+.carousel-indicators,#c-button{
+    z-index: 0;
+}
+
+#caption_1:hover{
+    font-size: xx-large;
+}
+
+@media screen and (max-width:500px){
+    #caption_1{
+        font-size: small;
+        margin-bottom: 20px;
+        z-index: 1;
+      }
+}
